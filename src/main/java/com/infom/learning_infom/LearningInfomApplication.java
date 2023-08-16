@@ -12,6 +12,7 @@ public class LearningInfomApplication {
 	public static void main(String[] args) {
 		// Hello!
 		SpringApplication.run(LearningInfomApplication.class, args);
+		// TODO: Create frontend and DB
 	}
 
 	@GetMapping
