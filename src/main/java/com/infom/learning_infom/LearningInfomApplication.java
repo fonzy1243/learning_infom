@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class LearningInfomApplication {
 
 	public static void main(String[] args) {
@@ -14,10 +13,4 @@ public class LearningInfomApplication {
 		SpringApplication.run(LearningInfomApplication.class, args);
 		// TODO: Create frontend and DB
 	}
-
-	@GetMapping
-	public String greet() {
-		return "Hello world!";
-	}
-
 }
